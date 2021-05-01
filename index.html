@@ -80,16 +80,96 @@
           </ol>
 
          <!-- VISIBILITY  -->
-         <p>Hidden</p>
-         <p>Invisible</p>
-         <p>You are on a small screen or larger</p>
-         <p>You are on a medium screen or larger</p>
-         <p>You are on a large or larger</p>
-         <p>You are not on a small screen</p>
-         <p>You are not on a medium screen</p>
-         <p>You are not on a larger screen</p>
-         <p>You are in landscape</p>
-         <p>You are in portrait</p>
+         <p class="hide">Hidden</p>
+         <p class="invisible">Invisible</p>
+         <p class="">You are on a small screen or larger</p>
+         <p class="show-for-medium">You are on a medium screen or larger</p>
+         <p class="show-for-large">You are on a large or larger</p>
+         <p class="hide-for-small-only">You are not on a small screen</p>
+         <p class="hide-for-medium-only">You are not on a medium screen</p>
+         <p class="hide-for-large-only">You are not on a larger screen</p>
+         <p class="show-for-landscape">You are in landscape</p>
+         <p class="show-for-portrait">You are in portrait</p>
+
+         <!-- Buttons  -->
+          <div class="row">
+              <button class="button">Button</button>
+              <a href="#" class="button">Link</a>
+              <input type="button" value="Input" class="button">
+              <br>
+
+              <!--colored buyttons-->
+            <button class="success button">Button</button>
+            <button class="alert button">Button</button>
+            <button class="warning button">Button</button>
+            <button class="secondary button">Button</button>
+            <button class="button disabled">Button</button>
+
+
+            <!-- SIZES -->
+            <button class="button tiny">Button</button>
+            <button class="button small">Button</button>
+            <button class="button">Button</button>
+            <button class="button large">Button</button>
+            <button class="button expanded">Button</button>
+            <button class="button expanded large">Button</button>
+
+         <!-- HOLLOW  -->
+            <button class="success button hollow ">Button</button>
+            <button class="alert button hollow ">Button</button>
+            <button class="warning button hollow ">Button</button>
+            <button class="secondary button hollow">Button</button>
+            <button class="button disabled hollow">Button</button>
+
+          </div>
+
+         <!--FORMS-->
+          <div class="row">
+              <form>
+                  <div>
+                      <label>Name</label>
+                      <input type="text" placeholder="Name">
+                  </div>
+                <div>
+                    <label>Email</label>
+                    <input type="email" placeholder="Email">
+                </div>
+                <div>
+                    <label>Number</label>
+                    <input type="number" >
+                </div>
+                <div>
+                    <label>Message</label>
+                    <textarea s placeholder="Message"></textarea>
+                </div>
+                <div>
+                    <label>Gender</label>
+                    <select>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Gender</label>
+                    <select multiple>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+
+              <fieldset class="fieldset">
+                  <legend>A Fieldset</legend>
+                  <input type="checkbox"><label>Checkbox</label>
+                <input type="checkbox"><label>Checkbox</label>
+                <input type="checkbox"><label>Checkbox</label>
+              </fieldset>
+
+              </form>
+          </div>
+
+
 
         </div>
 
